@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="vauMwM_*!o(,|oB|wHLo">랜덤넘버</variable><variable id="f*kI3:YRh(lk*Kd?d=lN">디스플레이 모드</variable></variables><block type="pxt-on-start" id="}hoMvNLI.ZOaD!]zGA9n" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="!{T12vB*65I;[geFOk-Q"><field name="VAR" id="vauMwM_*!o(,|oB|wHLo">랜덤넘버</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="{?H;Mwk#|(C-Ey?tam|_"><value name="min"><shadow type="math_number" id="-]sN3WB)~*!%IOvC6$[5"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id=",laH8(9*^g-%yFv/t,.]"><field name="NUM">6</field></shadow></value></block></value><next><block type="variables_set" id="g-7h[50RlivOKMF%B;XZ"><field name="VAR" id="f*kI3:YRh(lk*Kd?d=lN">디스플레이 모드</field><value name="VALUE"><shadow type="math_number" id="]7W%jCIXWWskpZm|$2:u"><field name="NUM">1</field></shadow></value><next><block type="function_call" id="_:phMfp.+z52zM=YWIIw"><mutation name="점 주사의 출력" functionid="~3?K?)0{7zWf/@@0}H_n"><arg name="number" id="F22|JPMW@r*}w[RN)h?r" type="number"></arg></mutation><value name="F22|JPMW@r*}w[RN)h?r"><shadow type="math_number"><field name="NUM">1</field></shadow><block type="variables_get" id="x?Ee[3pPQ)N|eQF[KAK!"><field name="VAR" id="vauMwM_*!o(,|oB|wHLo">랜덤넘버</field></block></value></block></next></block></next></block></statement></block><block type="function_definition" id="5KcK?m~G|.EgB2=uXgxn" x="490" y="-15"><mutation name="점 주사의 출력" functionid="~3?K?)0{7zWf/@@0}H_n"><arg name="number" id="F22|JPMW@r*}w[RN)h?r" type="number"></arg></mutation><field name="function_name">점 주사의 출력</field><statement name="STACK"><block type="controls_if" id="g=vD}SBegX/V(cyI90t!"><mutation elseif="4" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="_a1qdQY[PMHoPj::{?t^"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="3RIUs,iGHy.lBSJtSlc="><field name="VALUE">number</field></block></value><value name="B"><shadow type="math_number" id="3xU8O{_slb#x8d-C~n]v"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="GjM^r@Yt_dNKzzeGolOB"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="UTkg4beQKhF#RVv6j~mm"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="qU]b7Fn@D`m0|2d~Ab8b"><field name="VALUE">number</field></block></value><value name="B"><shadow type="math_number" id="NEwrMBbW:ApWagP?Dh*1"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="D_:e~Oz}3$uB#=_f`?(g"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><value name="IF2"><block type="logic_compare" id="Qg`Xz4MKmV+*{bcW$qm_"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="s[F}2C%tdnsepM,#Qy=C"><field name="VALUE">number</field></block></value><value name="B"><shadow type="math_number" id="DsQnBp|#.ExrDi;eDPhz"><field name="NUM">3</field></shadow></value></block></value><statement name="DO2"><block type="device_show_leds" id="`{%}#+]UCSN66M/x1_):"><field name="LEDS">`
+        . . . . . 
+        . # . . . 
+        . . # . . 
+        . . . # . 
+        . . . . .
+        `</field></block></statement><value name="IF3"><block type="logic_compare" id="$q}w)$VI4x0[)X#r)Jez"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="F4R,{xsYuu8xtoED)T~B"><field name="VALUE">number</field></block></value><value name="B"><shadow type="math_number" id="uTBc/^rb9+:w=e!5gjt]"><field name="NUM">4</field></shadow></value></block></value><statement name="DO3"><block type="device_show_leds" id="1$#_sPn9Ebv75w[~:cYw"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # . # . 
+        . . . . .
+        `</field></block></statement><value name="IF4"><block type="logic_compare" id="sDfbk@4@K`=q%8r[r}jL"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="Fd6j);{}AC(+47-#8Z{3"><field name="VALUE">number</field></block></value><value name="B"><shadow type="math_number" id="2Kwj8;(p@;Ky;0b6sLDk"><field name="NUM">5</field></shadow></value></block></value><statement name="DO4"><block type="device_show_leds" id="Q]nSPz!}e93(t)pLQm})"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="XWWsLVs6@67`TE,j$)lY"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # . # . 
+        . # . # . 
+        . . . . .
+        `</field></block></statement></block></statement></block><block type="device_button_event" id="7%unCZ+U{}#9`fIkXDX#" x="6" y="289"><field name="NAME">Button.A</field><comment pinned="true" h="65" w="82">숫자모드</comment><statement name="HANDLER"><block type="variables_set" id="vTG$U0yX+#mh(11-jwvm"><field name="VAR" id="f*kI3:YRh(lk*Kd?d=lN">디스플레이 모드</field><value name="VALUE"><shadow type="math_number" id="N~Bo17rDpJ[k|[,5$ze{"><field name="NUM">0</field></shadow></value></block></statement></block><block type="device_button_event" id="z=y{LKoV(M^rhqdt8lSX" x="11" y="419"><field name="NAME">Button.B</field><comment pinned="true" h="64" w="72">점 모드</comment><statement name="HANDLER"><block type="variables_set" id="~HKeVRJ7sjWcXMRG;qsV"><field name="VAR" id="f*kI3:YRh(lk*Kd?d=lN">디스플레이 모드</field><value name="VALUE"><shadow type="math_number" id="|~c8:#+4/9T%KuD13B@6"><field name="NUM">1</field></shadow></value></block></statement></block></xml>
